@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration - Southeast University Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <img src="images/iic logo.png" alt="Southeast University Logo" class="logo">
+                <div class="title-container">
+                    <h1>ITAHARI INTERNATIONAL COLLEGE</h1>
+                    <p class="tagline">Transforming Lives Through Education</p>
+                </div>
+            </div>
+            <div class="icons">
+                <div class="icon-circle">
+                    <i class="fas fa-info"></i>
+                </div>
+                <div class="icon-circle">
+                    <i class="fas fa-question"></i>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="login-container registration-container">
+                <div class="login-header">
+                    <h2>Student Registration</h2>
+                </div>
+                <div class="registration-form">
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-group">
+                        <label for="student-id">Student ID</label>
+                        <input type="text" id="student-id" name="student-id">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="department">Department</label>
+                            <select id="department" name="department">
+                                <option value="">Select Department</option>
+                                <option value="cs">BIT</option>
+                                <option value="bus">BBA</option>
+                            </select>
+                        </div>
+                        <div class="form-group half">
+                            <label for="year">Year of Study</label>
+                            <select id="year" name="year">
+                                <option value="">Select Year</option>
+                                <option value="1">1st Year</option>
+                                <option value="2">2nd Year</option>
+                                <option value="3">3rd Year</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="reg-username">Username</label>
+                        <input type="text" id="reg-username" name="reg-username">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="reg-password">Password</label>
+                            <input type="password" id="reg-password" name="reg-password">
+                        </div>
+                        <div class="form-group half">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" name="confirm-password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="terms" name="terms">
+                            <label for="terms" class="checkbox-label">I agree to the terms and conditions</label>
+                        </div>
+                    </div>
+                    <div class="form-group button-group">
+                        <button type="submit" class="primary-btn">Register</button>
+                        <a href="login.html" class="secondary-btn">Back to Login</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-logo">
+                <i class="fas fa-book-reader"></i>
+                <div class="footer-text">
+                    <span>LIBRARY</span>
+                    <span class="management">MANAGEMENT</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
